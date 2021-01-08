@@ -103,11 +103,11 @@ public class ChatFrame extends JFrame {
 		//设置背景透明
 		scoPaneOne.setOpaque(false);
 		scoPaneOne.getViewport().setOpaque(false);
-		frameBg.add(scoPaneOne);
+		frameBg.add(scoPaneOne);   
 		
 		
 		//当前在线用户列表
-		lstUser = new JList();
+		lstUser = new JList(); 
 		lstUser.setFont(new Font("宋体", 0, 14));
 		lstUser.setVisibleRowCount(17);
 		lstUser.setFixedCellWidth(180);
